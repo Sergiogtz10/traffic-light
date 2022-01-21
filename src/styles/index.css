@@ -1,12 +1,41 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-color: rgb(124, 172, 189);
+}
+.container{
+    text-align: center;
+}
+.buttons{
+    padding:15px 
+}
+.Random{
+    padding-right: 10px;
+}
+.traffic-light{
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 25px;
+    padding: 20px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: rgb(240, 112, 26);
+}
+.green{
+    background-color: rgb(43, 192, 24);
+}
+.led {
+   
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 30px #d3d6a6;
+  }
